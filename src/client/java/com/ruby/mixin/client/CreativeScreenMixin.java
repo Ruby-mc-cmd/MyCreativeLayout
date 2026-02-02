@@ -29,7 +29,6 @@ public abstract class CreativeScreenMixin extends Screen {
 
 		this.addRenderableWidget(toggleButton);
 
-		// 起動時に現在のレイアウトを反映
 		LayoutManager.getInstance().applyCurrentLayout();
 	}
 }

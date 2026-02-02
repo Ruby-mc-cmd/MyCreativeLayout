@@ -9,7 +9,7 @@ public class VanillaLayoutHandler {
         // VanillaLayout の処理
         Minecraft mc = Minecraft.getInstance();
         if (mc.screen instanceof CreativeModeInventoryScreen screen) {
-            System.out.println("[VanillaLayout] 適用");
+            System.out.println("[VanillaLayout]");
             // 標準レイアウトに戻す処理を書く
         }
     }
