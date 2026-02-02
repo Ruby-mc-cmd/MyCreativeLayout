@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.ruby.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CreativeScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

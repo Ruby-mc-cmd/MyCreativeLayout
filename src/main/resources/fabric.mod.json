@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "mycreativelayout",
+	"version": "${version}",
+	"name": "MyCreativeLayout",
+	"description": "Customize your Creative inventory layout freely!",
+	"authors": [
+		"Ruby"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.ruby.MyCreativeLayout"
+		],
+		"client": [
+			"com.ruby.MyCreativeLayoutClient"
+		]
+	},
+	"mixins": [
+		"mycreativelayout.mixins.json",
+		{
+			"config": "mycreativelayout.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
