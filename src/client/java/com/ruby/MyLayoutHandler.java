@@ -7,7 +7,7 @@ public class MyLayoutHandler {
 
     public static void apply() {
         // MyLayout のカスタム処理をここに記述
-        // 例: タブ順の変更、特定アイテム優先表示など
+        // タブ順の変更、特定アイテム優先表示
 
         Minecraft mc = Minecraft.getInstance();
         if (mc.screen instanceof CreativeModeInventoryScreen screen) {
