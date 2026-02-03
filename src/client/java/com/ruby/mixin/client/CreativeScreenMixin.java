@@ -25,7 +25,7 @@ public abstract class CreativeScreenMixin extends Screen {
 					LayoutManager.getInstance().toggleLayout();
 					button.setMessage(LayoutManager.getInstance().getButtonText());
 				}
-		).bounds(this.width / 2 - 40, 14, 80, 16).build();
+		).bounds(this.width / 2 - 40, this.height- 24, 80, 16).build();
 
 		this.addRenderableWidget(toggleButton);
 

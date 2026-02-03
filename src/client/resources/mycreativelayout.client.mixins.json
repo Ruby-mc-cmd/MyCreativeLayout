@@ -3,7 +3,9 @@
 	"package": "com.ruby.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"CreativeScreenMixin"
+		"CreativeScreenMixin",
+		"CreativeModeInventoryScreenMixin",
+		"CreativeScreenAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1
